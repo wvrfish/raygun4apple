@@ -104,8 +104,8 @@ NS_ASSUME_NONNULL_BEGIN
     details.threads = threads;
     
     // Binaries
-    NSArray<RaygunBinaryImage *> *binaryImages = [self referencedBinaryImagesFromCrashReport:report threads:threads];
-    details.binaryImages = binaryImages;
+    //NSArray<RaygunBinaryImage *> *binaryImages = [self referencedBinaryImagesFromCrashReport:report threads:threads];
+    //details.binaryImages = binaryImages;
     
     // Machine Name
     #if RAYGUN_CAN_USE_UIDEVICE
